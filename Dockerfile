@@ -1,2 +1,2 @@
-FROM httpd
-COPY target/index.html /var/html/
+FROM ubuntu
+RUN apt-get update
